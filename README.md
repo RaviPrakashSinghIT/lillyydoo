@@ -3,7 +3,15 @@
 
 ========================
 
-What's inside?
+Run  Application
+
+- git  clone  "https://github.com/RaviPrakashSinghIT/lillyydoo"
+- composer install
+- php bin/console server:run 
+
+=======================
+
+ What's inside?
 --------------
 
 The Symfony Standard Edition is configured with the following defaults:
@@ -17,10 +25,4 @@ The Symfony Standard Edition is configured with the following defaults:
   * Swiftmailer;
 
   * Annotations enabled for everything.
-
-It comes pre-configured with the following bundles:
-
-  * **FrameworkBundle** - The core Symfony framework bundle
-
-   https://github.com/RaviPrakashSinghIT/lillyydoo
 
