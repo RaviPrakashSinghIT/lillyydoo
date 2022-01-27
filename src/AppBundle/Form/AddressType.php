@@ -22,7 +22,7 @@ class AddressType extends AbstractType
         $builder
             ->add('firstName', TextType::class)
             ->add('lastName', TextType::class)
-            ->add('streetAndNumber', TextType::class)
+            ->add('street', TextType::class)
             ->add('zip', NumberType::class)
             ->add('city', TextType::class)
             ->add('country', CountryType::class)

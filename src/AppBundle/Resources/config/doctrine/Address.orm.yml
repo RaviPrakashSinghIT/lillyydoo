@@ -15,7 +15,7 @@ AppBundle\Entity\Address:
         lastName:
             type: string
             length: 255
-        streetAndName:
+        street:
             type: string
             length: 255
         zip:

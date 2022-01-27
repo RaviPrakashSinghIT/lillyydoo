@@ -29,7 +29,7 @@ class Address
     /**
      * @var string
      */
-    private $streetAndName;
+    private $street;
 
     /**
      * @var string
@@ -140,25 +140,25 @@ class Address
     /**
      * Set street
      *
-     * @param string $streetAndName
+     * @param string $street
      *
      * @return Address
      */
-    public function setStreetAndName($streetAndName)
+    public function setStreet($street)
     {
-        $this->streetAndName = $streetAndName;
+        $this->street = $street;
 
         return $this;
     }
 
     /**
-     * Get streetAndName
+     * Get Street
      *
      * @return string
      */
-    public function getStreetAndName()
+    public function getStreet()
     {
-        return $this->streetAndName;
+        return $this->street;
     }
 
     /**
