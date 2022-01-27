@@ -1,0 +1,42 @@
+AppBundle\Entity\Address:
+    type: entity
+    table: null
+    repositoryClass: AppBundle\Repository\AddressRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        firstName:
+            type: string
+            length: 255
+        lastName:
+            type: string
+            length: 255
+        streetAndName:
+            type: string
+            length: 255
+        zip:
+            type: string
+            length: 255
+        city:
+            type: string
+            length: 255
+        country:
+            type: string
+            length: 255
+        phoneNumber:
+            type: string
+            length: 255
+        birthday:
+            type: string
+            length: 255
+        email:
+            type: string
+            length: 255
+        picture:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

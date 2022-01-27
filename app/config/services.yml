@@ -33,3 +33,7 @@ services:
     # AppBundle\Service\ExampleService:
     #     arguments:
     #         $someArgument: 'some_value'
+    AppBundle\Twig\Extension\CountryExtension:
+        class: AppBundle\Twig\Extension\CountryExtension
+        tags:
+            - { name: twig.extension }
